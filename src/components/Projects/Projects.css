@@ -1,0 +1,179 @@
+#projects {
+    padding: 0px 0;
+    margin-top: 8%;
+    /* text-align: center; */
+  }
+  
+  .rowp{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+  }
+  
+  .project-container{
+    border: 2px solid rgb(244, 239, 239);
+    box-shadow: 7px 7px 3px #959393;
+    width: 35%;
+    text-align: center;
+    border-radius: 4%;
+  }
+  
+  .project-container img{
+    width: 90%;
+    margin-top: 6%;
+  }
+  
+  .project-container h2{
+    margin-top: 6%;
+    color: yellow;
+  }
+  
+  .project-container p{
+    margin-top: 6%;
+    word-spacing: 2px;
+    color: white;
+  }
+  
+  .button-container{
+    margin: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .button-container a{
+    width: 30%;
+  }
+  
+  .button-container button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+  /* Project Card Styles */
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .mr-2{
+    width: 20%;
+  }
+
+  @media screen and (max-width:1000px) {
+    * Projects Section Styles */
+#projects {
+  padding: 0px 0;
+  margin-top: 8%;
+  /* text-align: center; */
+}
+
+.rowp{
+  /* border: 2px solid green; */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 6%;
+}
+
+
+
+.project-container{
+  /* border: 2px solid rgb(79, 89, 235); */
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  /* box-shadow:2px solid rgb(110, 109, 184); */
+  border-radius: 0%;
+  margin-top: 8%;
+  border: none;
+}
+
+.project-container img{
+  width: 90%;
+  margin-top: 6%;
+}
+
+.project-container h2{
+  margin-top: 6%;
+  color: yellow;
+}
+
+.project-container p{
+  margin-top: 6%;
+  word-spacing: 2px;
+  color: white;
+}
+
+.button-container{
+  margin: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button-container a{
+  width: 30%;
+}
+
+.button-container button{
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Project Card Styles */
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+  }
+  
