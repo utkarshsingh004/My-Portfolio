@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
+        <h2>Contact:</h2>
         <p>Feel free to reach out!</p>
          <li className={styles.link}>
           <img src="https://img.icons8.com/?size=48&id=X0mEIh0RyDdL&format=png" alt="Email icon" />

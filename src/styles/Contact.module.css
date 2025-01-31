@@ -62,4 +62,28 @@
   .links {
     align-items: center;
   }
+
+  .text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  .text p{
+    display: none;
+  }
+
+  .link a{
+    /* border: 2px solid red; */
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0PX;
+    margin-top: 4%;
+    margin-right: 2%;
+  }
+
+  .link img{
+    /* border: 2px solid red; */
+    width: 35px;
+  }
 }

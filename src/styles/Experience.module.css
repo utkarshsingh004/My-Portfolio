@@ -128,5 +128,29 @@ button{
   .history {
     width: 100%;
     gap: 9px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
   }
+
+  .historyItem{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+
+  .historyItemDetails h3{
+    font-size: 20px;
+    margin-top: 4%;
+  }
+
+  .historyItemDetails p{
+    font-size: 15px;
+    margin: 4%;
+  }
+
+  button{
+    width: 50%;
+  }
+
 }

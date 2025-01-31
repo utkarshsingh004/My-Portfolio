@@ -15,7 +15,7 @@ export const Navbar = () => {
           src={
             menuOpen
               ? "https://img.icons8.com/?size=48&id=11997&format=png"
-              : "https://img.icons8.com/?size=50&id=8113&format=png"
+              : "https://img.icons8.com/?size=48&id=12371&format=png"
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}

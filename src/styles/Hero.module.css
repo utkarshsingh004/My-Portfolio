@@ -108,11 +108,48 @@
 }
 
 @media screen and (max-width: 1000px) {
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
   .container {
     flex-direction: column-reverse;
   }
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    border-radius: 50%;
+    border-radius: 9px;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    margin-top: 8%;
+    /* border: 2px solid red; */
+    animation: none;
+  }
+
+  .title {
+    margin-top: 6%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    letter-spacing: 1px;
+   
+  }
+
+  .description {
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    /* margin-bottom: 52px; */
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    /* border: 2px solid red; */
   }
 }
