@@ -1,14 +1,14 @@
 import React from "react";
 
-import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+import styles from ".././styles/Experience.module.css";
+import skills from "../data/skills.json";
+import history from "../data/history.json";
+import { getImageUrl } from "../utils";
 
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Skills:</h2>
+      <h2 className={styles.title}>Skills & Experience:</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -22,7 +22,6 @@ export const Experience = () => {
             );
           })}
         </div>
-    <h2 className={styles.title}>Experience:</h2>
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
@@ -32,8 +31,10 @@ export const Experience = () => {
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <h3>{`Role: ${historyItem.role}`}</h3>
+                  <h3>{`Company: ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <a href="https://drive.google.com/file/d/1cRcKphg_ZR3NCFg4DwG1nkIGZjTfK2mI/view?usp=drive_link" target="blank"><button>Certificate</button></a>
                 </div>
               </li>
             );

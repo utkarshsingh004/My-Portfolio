@@ -1,34 +1,34 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "../../.././assets/skills/html.png"
+        "imageSrc": "https://img.icons8.com/?size=48&id=20909&format=png"
     },
     {
         "title": "CSS",
-        "imageSrc": "../../.././assets/skills/css.png"
+        "imageSrc": "https://img.icons8.com/?size=48&id=21278&format=png"
     },
     {
         "title": "JS",
-        "imageSrc": "../../.././assets/skills/java-script.png"
+        "imageSrc": "https://img.icons8.com/?size=48&id=PXTY4q2Sq2lG&format=png"
     },
     {
         "title": "React",
-        "imageSrc": "../../.././assets/skills/react.png"
+        "imageSrc": "https://img.icons8.com/?size=64&id=p57acgidi9bj&format=png"
     },
     {
         "title": "Node",
-        "imageSrc": "../../.././assets/skills/node.png"
+        "imageSrc": "https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png"
     },
     {
         "title": "Express",
-        "imageSrc": "../../.././assets/skills/express-js.png"
+        "imageSrc": "https://img.icons8.com/?size=50&id=kg46nzoJrmTR&format=png"
     },
     {
         "title": "MongoDB",
-        "imageSrc": "../../.././assets/skills/mongodb.png"
+        "imageSrc": "https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png"
     },
     {
         "title": "MySQL",
-        "imageSrc": "../../.././assets/skills/sql.png"
+        "imageSrc": "https://img.icons8.com/?size=40&id=50051&format=png"
     }
 ]

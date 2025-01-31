@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import "../vars.css";
 
 .container {
   position: relative;
@@ -27,6 +27,7 @@
 
 .aboutImage {
   width: 35%;
+  /* background-color: white; */
 }
 
 .aboutItems {

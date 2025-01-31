@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Navbar.module.css";
+import styles from ".././styles/Navbar.module.css";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,8 +14,8 @@ export const Navbar = () => {
           className={styles.menuBtn}
           src={
             menuOpen
-              ? "../../.././assets/nav/closeIcon.png"
-              : "../../.././assets/nav/menuIcon.png"
+              ? "https://img.icons8.com/?size=48&id=11997&format=png"
+              : "https://img.icons8.com/?size=50&id=8113&format=png"
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -37,12 +37,12 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/resume.pdf" download="presume.pdf">
+            <a href="/resume.pdf" download="resume.pdf">
               Resume
             </a>
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> 
   );
 };
