@@ -37,7 +37,7 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/resume.pdf" download="resume.pdf">
+            <a href="/RealResume.pdf" download="RealResume.pdf">
               Resume
             </a>
           </li>

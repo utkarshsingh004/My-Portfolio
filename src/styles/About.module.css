@@ -89,5 +89,16 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    background-image: none;
+  }
+
+  .aboutItemText h3{
+    /* border: 2px solid red; */
+    font-size: 30px;
+  }
+
+  .aboutItemText p{
+    margin-top: 4%;
+    margin-left: 4%;
   }
 }
