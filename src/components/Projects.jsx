@@ -61,6 +61,16 @@ const Projects = () => {
 					<div className="button-container">
 						<a href="https://utkarsh-bmi-calculator.netlify.app/"><button>VIEW</button></a>
 						<a href="https://github.com/utkarshsingh004/BMI-CALCULATOR.git"><button>Source Code</button></a>
+					</div> 
+				</div>
+
+				<div className="project-container">
+					<img src="pokedex.png" alt="Pokemon-Dex" />
+					<h2>Pokemon-Dex</h2>
+					<p>A Pokédex built with React + Vite that displays a list of Pokémon, allowing users to click on a Pokémon to view its details on a separate page. It uses React Router for navigation and state management for handling Pokémon data efficiently.</p>
+					<div className="button-container">
+						<a href="https://utkarsh004-pokedex.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/Pokemon-Dex"><button>Source Code</button></a>
 					</div>
 				</div>
 			</div>
