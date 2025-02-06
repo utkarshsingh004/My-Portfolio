@@ -37,8 +37,11 @@ const Projects = () => {
 					<h2>Tic-Tac-Toe</h2>
 					<p>Classic Tic Tac Toe Game: A simple, web-based implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. Play against a friend in the browser, take turns marking X or O on the 3x3 grid, and aim for victory with three in a row. Easily deployable and customizable for learning or casual gaming.</p>
 					<div className="button-container">
-						<a href="https://utkarshsingh004.github.io/Tic-Tac-Toe/"><button>VIEW</button></a>
-						<a href="https://github.com/utkarshsingh004/Tic-Tac-Toe.git"><button>Source Code</button></a>
+						<div className="button-container">
+						<a href="https://utkarsh004-tic-tac-toc.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/Tic-Tac-Toe"><button>Source Code</button></a>
+					</div>
+
 					</div>
 				</div>
 
