@@ -125,6 +125,23 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="rowp">
+        <div className="project-container">
+          <img src="todo.png" alt="todo" />
+          <h2>To-Do App</h2>
+          <p>
+		  A To-Do App built using React and Vite allows users to add, display, and remove tasks efficiently.
+          </p>
+          <div className="button-container">
+            <a href="https://utkarsh004-todo.netlify.app/">
+              <button>VIEW</button>
+            </a>
+            <a href="https://github.com/utkarshsingh004/To-Do.git">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
