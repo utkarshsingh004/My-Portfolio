@@ -6,8 +6,11 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 61px;
-  z-index: 2;
+  z-index: 999;
+  /* position:fixed; */
+  /* top: 0; */
   margin: 0 10%;
+  /* background-color: blue; */
 }
 
 .title {
