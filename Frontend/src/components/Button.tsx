@@ -1,3 +1,4 @@
+// components/Button.tsx
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -22,8 +23,9 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   href,
 }) => {
-  const baseStyles = 'inline-flex items-center justify-center rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
-  
+  const baseStyles =
+    'inline-flex items-center justify-center rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
+
   const variantStyles = {
     primary: 'bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500 dark:bg-primary-500 dark:hover:bg-primary-600',
     secondary: 'bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-secondary-400 dark:bg-secondary-600 dark:hover:bg-secondary-700',
