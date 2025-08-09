@@ -11,7 +11,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = 'John Doe | Portfolio';
+    document.title = 'Utkarsh Singh | Portfolio';
   }, []);
 
   return (
